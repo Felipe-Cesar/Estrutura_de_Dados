@@ -2,9 +2,9 @@
 package exercicios0803;
 
         /*  
-        2. Criar um vetor com 8 elementos interiros. Criar outro vetor de mesmo 
-        tipo que devera conter os elementos do vetor A multiplicados pelo do 
-        vetor B
+        2. Criar um vetor com 8 elementos inteiros. Criar outro vetor de mesmo 
+        tipo e tamanho que deverá conter os elementos do vetor A multiplicados 
+        por 2.
         */
 
 public class Exercicio02 {
@@ -17,13 +17,13 @@ public class Exercicio02 {
         int multB [] = new int [8];
         
         //multiplicando vetor
-        for (int j = 0; j < 8; j++) {
-            multB[j] = (multA[j] *2); 
+        for (int  i= 0; i < 8; i++) {
+            multB[i] = (multA[i] *2); 
         }
         
-        //imprimindo vetores
-        for (int j = 0; j < 8; j++) {
-           System.out.println(multB[j]); 
+        //descarregando vetor
+        for (int i = 0; i < 8; i++) {
+           System.out.println(multB[i]); 
         }
     }
     
